@@ -1,40 +1,55 @@
-AlertOps Expert Guidance
+Stakeholder Communications Plan Best Practices (in 2021)
 ========
+In a simpler world, a stakeholder communication plan would be a one-size-fits-all type of item. You could deliver the same notification to everyone with equally successful results.
 
- 
-The phrase ‘stakeholder management” assumes that stakeholders are truly informed by alerts. However, managers can only send communications out, they cannot force people to address them. To ensure your stakeholders are engaged during an incident, it is vital to set up a defined communication process. Yet, a recent Red Canary report1 found that 43% of surveyed participants lack readiness to notify the public and/or its customers in the event of a security breach. Without a clear strategy in place, communication can get lost in the chaos leaving stakeholders uninformed.
+But in the real world, effective stakeholder engagement messages must be nuanced. The messages you send to different stakeholders when an incident occurs need to be tailored to each category of recipient.
 
-Not One Size Fits All
-=====
-Sending the same notification to all your stakeholders can cause a lot of confusion and create unwanted alert noise. Some users shouldn’t receive technical information, others require all the nitty gritty details. Every alert should be tailored based on a user’s expertise or role.
-Means of Communication
+Let’s take a look at why tailoring incident notifications is important, and discuss best practices for doing it effectively.
+Disaggregating incident stakeholders
 
-Strategize mode(s) of communication to be used when communicating with stakeholders. Understand which tools engage stakeholders the most. It is also vital to unify these channels for streamlined points of contact.
+To understand why and how to tailor incident notifications, you first need to identify the different individuals and groups who will receive messages.
 
-Automate Processes
+Your distribution list will vary depending on your specific needs, of course. But at many organizations, recipients of incident notifications may include:
+
+    On-call engineers who are responsible for responding to the incident
+    Other engineers or IT team members who are not directly responsible for responding, but may need to be aware of the incident
+    Developers who might not respond directly to an incident, but often need to be aware so they can fix problems within application code
+    Executives or managers
+    Customers or end-users who are affected by an incident
+    Customer relations teams or account managers who may need to prepare to communicate with clients who are impacted by an incident
+    PR teams who can help craft a response plan when an incident threatens the company’s reputation
+    Legal teams who may need to intervene in situations where an incident creates a legal or regulatory challenge
+
+Obviously, not all of these stakeholders will be notified about every incident. Simple incidents don’t require sending out alerts to CXOs and PR teams, for example. Likewise, developers may only need to be notified about incidents that relate to applications or code they manage; they don’t need to receive notifications for problems that are purely infrastructure-related (such as a disk failure).
+
+Still, the fact is that for many incidents, alerts will need to go out to multiple groups, each of which has a different area of expertise and a different role to play in responding to the incident. That’s why messages must be tailored to each group. You want to give each type of stakeholder the information he or she needs to respond effectively, without adding distraction or confusion.
+
+Tailored Stakeholder Notifications
 ====
-Engaging stakeholders can take up a lot of time. Automate stakeholder communications to ensure efficient delivery of insightful information. Implement AlertOps so you can focus on getting ahead of incidents while knowing your alerts reach the right person, through the right channel, every time. Sending regular updates to stakeholders during an incident is vital to keep them calm. Automation addresses your stakeholders’ needs while ensuring they remain aligned with minimal manual work.
+In most cases, it’s not feasible to tailor alert messages to each type of stakeholder every time a problem occurs. Nor is it highly practical to attempt to write a different message for each and every stakeholder, since your company may sometimes find itself needing to notify a group or individual that it had not planned to contact previously.
 
-Clarity
+For these reasons, we recommend taking a three-pronged approach to incident notifications by preparing three separate types of messages ahead of time. The three types include:
+
+    A highly technical message, which can be sent to the IT staff and developers. These messages can include all of the technical details about what went wrong and what is happening in response.
+    A semi-technical message. This version of the notification can be used for stakeholders who have technical expertise but don’t need the full details on the incident because they will not be directly involved in the technical response. Technical sales representatives and CTOs are examples of recipients for this type of message.
+    A non-technical message. This version of the alert includes no technical details on what went wrong, but does include information about which services are affected and how engineers are responding. This information is what account managers, PR teams and legal teams need to craft their response.
+
+When possible, these three messages can be nuanced or tailored further to fit a specific type of incident or scenario. Still, by having these three types of basic messages available to start with, your team is better equipped to send the right information to the right people.
+
+Privacy surrounding incident notifications
 ====
-A highly flexible incident management and alert automation tool, AlertOps is powered by an open API, with the ability to connect with practically any communication tool. Once plugged in, AlertOps delivers alerts with relevant incident information so that stakeholders can stay in the loop from detection to resolution.
-Any Way You Want It…
+It’s worth noting that part of the value of having multiple versions of the same incident notifications to send out to different stakeholders is that it can help keep sensitive information private.
 
-Since you use multiple channels for communication, you need an alerting system that sends alerts through multiple communication channels. AlertOps delivers alerts any way you want. Receive alerts by phone, SMS, or email. Even integrate with all your favorite chat tools, such as Slack and Microsoft Teams, so that users receive alerts where they are most likely to see them.
-
-Insightful Notifications
-====
-Alerts are only useful if they contain information relevant to the user. With AlertOps, customized messages make it easy for stakeholders to quickly understand an incident. They can also receive updates throughout the course of handling the incident. Make sure emails are actionable as well. Send emails in rich text and HTML to include graphs, images, custom links, runbook links or links to a conference bridge for any alert. The solution even offers voice messages with incident details from the embedded phone system.
+As a general rule, the fewer people who know the technical details of your infrastructure and operations, the better. By tailoring your incident notifications, you can avoid sharing messages containing extensive technical information with people who don’t need that information. Keep this goal in mind when you design your different messages.
 
 Conclusion
 ====
-Effective incident response requires, not only sending the right information to the right people, but also ensuring those stakeholders are engaged and truly informed. It is vital to have a plan in place for ensuring that each type of stakeholder receives only the information he or she needs. AlertOps ensures that your alerts reach the right person, through the right channel, every time.
+Effective incident response requires sending just the right information only to the right people. In addition to determining who needs to be notified about a given incident, you should also have a plan in place for ensuring that each type of recipient receives the information he or she needs to respond effectively – nothing more, nothing less.
 
-1 Red Canary 2021 Threat Detection Report
 
 source:
 ====
-https://alertops.com/red-canary-says-43-lack-readiness-to-notify-customers-of-a-security-breach/
+https://alertops.com/stakeholder-communications-plan/
 
 Read more:
 ====
